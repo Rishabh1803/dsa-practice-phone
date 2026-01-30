@@ -1,0 +1,17 @@
+{
+  "name": "Java 25 DSA",
+  "image": "mcr.microsoft.com/devcontainers/java:3-25-bullseye",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.configuration.runtime": [{ "name": "JavaSE-25", "path": "/usr/local/sdkman/candidates/java/current" }],
+        "editor.fontSize": 16,
+        "workbench.sideBar.location": "right"
+      },
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-java-test"
+      ]
+    }
+  }
+}
